@@ -1,6 +1,6 @@
 ﻿# Github-demo
 
-## 👉https://cssgradient.io/👈
+## 👉https://cssgradient.io/ 👈
     Go to that link, generate a gradient of colors that you want, 
     then put it into the variable --insert-liner-gradient-here below (in the CSS file)
 
