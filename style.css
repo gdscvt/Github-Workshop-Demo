@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda&display=swap");
+
+/**
+    👉https://cssgradient.io/👈
+    Go to that link, generate a gradient of colors that you want, 
+    then put it into the variable --insert-liner-gradient-here below
+
+    Go to HTML file, replace name with your own, swap
+    picture out for your own one, and finally put your
+    own major down
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ruda", sans-serif;
+  text-align: center;
+  --insert-liner-gradient-here: linear-gradient(
+    90deg,
+    rgba(250, 128, 114, 1) 0%,
+    rgba(250, 152, 114, 1) 100%
+  );
+  --container-size-width: 30vw;
+  --container-size-height: 60vh;
+  --container-size-height-back: 70vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(244, 244, 244, 0.8);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: var(--container-size-width);
+  height: var(--container-size-height);
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-size: cover;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.1);
+}
+
+.container::before {
+  position: absolute;
+  content: "";
+  width: var(--container-size-width);
+  height: var(--container-size-height-back);
+  background: var(--insert-liner-gradient-here);
+  transform: rotate(-9deg) translateX(-3px);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.container > * {
+  margin: 0.5rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+img {
+  padding-bottom: 1rem;
+  max-height: 15vh;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1100px) {
+  * {
+    --container-size-height: 70vh;
+    --container-size-height-back: 80vh;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+  .container {
+    width: 80vw;
+  }
+
+  .container::before {
+    width: 80vw;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+}
