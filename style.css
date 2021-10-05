@@ -5,6 +5,8 @@
     Go to that link, generate a gradient of colors that you want, 
     then put it into the variable --insert-liner-gradient-here below
 
+    Change font-color if needed
+
     Go to HTML file, replace name with your own, swap
     picture out for your own one, and finally put your
     own major down
@@ -20,6 +22,7 @@
     rgba(250, 128, 114, 1) 0%,
     rgba(250, 152, 114, 1) 100%
   );
+  --font-color: rgba(0, 0, 0, 0.6);
   --container-size-width: 30vw;
   --container-size-height: 60vh;
   --container-size-height-back: 70vh;
@@ -62,7 +65,7 @@ body {
 
 .container > * {
   margin: 0.5rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--font-color);
 }
 
 img {
