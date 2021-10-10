@@ -2,8 +2,8 @@
  
  ## Github Terminology 🤓
  
- > git clone => Clones a Git repository to a specified directory. Changes made to the cloned repo 
- >              can then be pushed (or branched off) to the original repo. This means the ownership
+ > git clone => Clones a Git repository to a specified directory. Changes made to the cloned repo (laptop)
+ >              can then be pushed (or branched off) to the original repo (on Github). This means the ownership
  >              of the repo is still the original creator.
  
  > fork => Like git clone, creates a copy of the repository. However, the copy made is now seperated
