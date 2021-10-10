@@ -79,7 +79,7 @@ h1 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   * {
     --container-size-height: 70vh;
     --container-size-height-back: 80vh;
