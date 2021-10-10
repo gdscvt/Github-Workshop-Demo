@@ -2,7 +2,7 @@
  
  ## Github Terminology 🤓
  
- > git clone => Clones a Git repository to a specified directory. Changes made to the cloned repo (laptop)
+ > clone => Clones a Git repository to a specified directory. Changes made to the cloned repo (laptop)
  >              can then be pushed (or branched off) to the original repo (on Github). This means the ownership
  >              of the repo is still the original creator.
  
@@ -12,6 +12,12 @@
 
 ## 👉https://croppola.com/ 👈
     Use this link to crop your images to 1:1 aspect ratio so that it appears correctly in the page
+
+<p align="center">
+<img src="https://i.ibb.co/mTtZJNy/DSC00002-02.jpg" width="200px"> ❌
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://i.ibb.co/fM42M2d/DSC00002-02-Cropped.jpg" width="200px" margin> ✔️
+</p>
  
 ## 👉https://cssgradient.io/ 👈
     Go to that link, generate a gradient of colors that you want, 
